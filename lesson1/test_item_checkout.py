@@ -5,7 +5,7 @@ import time
 driver = webdriver.Chrome()
 
 
-def test_add_item_to_cart():
+def test_item_checkout():
     driver.get("https://www.saucedemo.com/")
 
     username_field = driver.find_element(By.XPATH, '//input[@data-test="username"]')
